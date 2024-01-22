@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(135deg, #3D3F66, #2D2F4F, #16172E, #090A1B);
+
+}
+
+header{
+    height: 70px;
+    /* background-color: #000000; */
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color: #fff;
+}
+
+section{
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+p{
+    color: #fff;
+}
+
+
+
+#container__esq{
+    /* Margin */
+    margin-top: 20px;
+    /* Tamanho */
+    width: 47vw;
+    height: 100vh;
+    /* Flexbox */
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#div__botao{
+    width: 100%;
+    height: 100px;
+    /* background-color: #1d6cb6; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#nome__pokemon{
+    /* Tamanho & formato */
+    width: 500px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 13px;
+    text-align: center;
+
+    background-color: #ffffff77;
+    color: #fff;
+
+    font-family: 'Montserrat';
+}
+
+#poke__button{
+    width: 100px;
+    height: 46px;
+    background-color:#b61d36;
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 5px;
+    font-family: 'Montserrat'
+}
+
+#info__esq{
+    /* background-color: #fff; */
+    width: 300px;
+    height: 76vh;
+    /* background-color: rgba(0, 0, 255, 0.356); */
+    padding: 10px;
+}
+
+.denomination{
+    background-color: rgba(29, 33, 39, 0.651);
+    padding: 5px;
+    border-radius: 10px ;
+}
+
+.resposta{
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #b61d3683;
+    border-radius: 10px;
+}
+
+::placeholder{
+    color: #ffffff79;
+    
+}
+
+
+
+/* box direito */
+
+#container__dir{
+    /* Flex */
+    display: flex;
+    justify-content: center;
+    /* Margem */
+    margin-top: 20px;
+    /* Tamanho */
+    width: 47vw;
+    height: 630px;
+    /* Visualizar delimitação */
+    /* border: 1px solid #fff; */
+}
+
+#img__pokemon{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    /* background-color: #b61d36; */
+}
+
+
+
